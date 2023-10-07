@@ -1,0 +1,90 @@
+.conten-servi {
+  padding: 14px 0;
+  padding-bottom: 33px;
+}
+
+.conten-servi .s-title-1 {
+  padding: 10px 0;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.card-3 {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.card-3 .s_img {
+  position: relative;
+  cursor: pointer;
+}
+
+.card-3 .s_img img {
+  width: 100%;
+  height: 100%;
+  border: 1px #eee solid;
+  padding: 5px;
+}
+
+.card-3 .b_conten {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.card-3 .b_conten .b_title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-3 .b_conten p {
+  padding: 5px 0;
+}
+
+.card-3 .b_conten .b_button {
+  width: 87px;
+  height: 36px;
+  background-color: #48d5c5;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-3 .b_conten .b_button:hover {
+  opacity: 0.85;
+}
+
+.card-3 .s_img::before {
+  content: "\f002";
+  position: absolute;
+  color: #fff;
+  font-family: fontawesome;
+  font-size: 21px;
+  display: none;
+  transition: all 0.8s;
+  left: 45%;
+  top: 45%;
+}
+.card-3 .s_img:hover::before {
+  display: block;
+}
+
+.card-3 .s_img::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 45%;
+  left: 45%;
+  background-color: #00000026;
+  display: none;
+  transition: all 0.5s;
+}
+.card-3 .s_img:hover::after {
+  display: block;
+  width: 100%;
+  height: 99%;
+  top: 0;
+  left: 0;
+}

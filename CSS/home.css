@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.conten-1 {
+  margin-top: 80px;
+}
+
+.conten-1 .s-desc-3 {
+  color: #fb7f7f;
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: -40px;
+  font-family: "Dancing Script", sans-serif;
+}
+
+.conten-1 .s-title-3 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #1b685f;
+}
+
+.conten-1 p {
+  font-size: 16px;
+  padding: 10px 0 5px 0;
+  color: #95b2af;
+}
+
+.conten-1 .downtown {
+  text-align: center;
+  background-color: #36d0c4;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.conten-1 .downtown:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+.conten-1 .residential-area {
+  text-align: center;
+  background-color: #fb7f7f;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.conten-1 .residential-area:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+.s-img-4 {
+  margin-top: 60px;
+}
+
+/* ----------------------------------conten-2-------------------------------- */
+.conten-2 {
+  background-color: rgb(229, 246, 245);
+  margin-top: -5px;
+  padding-bottom: 80px;
+}
+
+.conten-2 .s-title-2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 700;
+  color: #fb7f7f;
+}
+
+.conten-2 .s-desc-4 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #1b685f;
+}
+
+.conten-2 .s-row {
+  margin-top: 30px;
+}
+
+.card-1 {
+}
+
+.card-1 .s-img img {
+  width: 100%;
+}
+
+.card-1 .b_desc {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  background-color: #fff;
+  padding: 10px 0;
+  margin-top: -5px;
+  color: #1b685f;
+}
+
+.card-1:hover {
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 22%);
+}
+
+.conten-2 .other-services {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  background-color: #36d0c4;
+  color: #e5f6f5;
+  max-width: 30%;
+  margin-left: 35%;
+  margin-top: 40px;
+  padding: 10px 5px;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.conten-2 .other-services:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+/* -------------------------------------conten-3-------------------------------- */
+.conten-3 {
+  background-image: url(/img/nen-3.jpg);
+  padding-top: 20%;
+  padding-bottom: 100px;
+}
+
+.conten-3 .s-title-4 {
+  margin-left: 100px;
+  color: #fff;
+}
+
+.conten-3 .s-title-4 .b_desc_4 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Dancing Script", sans-serif;
+}
+
+.conten-3 .s-title-4 .b_title_4 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.conten-3 .s-title-4 p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.conten-3 .btn-phone {
+  position: relative;
+  margin-left: 100px;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+  background-color: #fb7f7f;
+  max-width: 20%;
+  padding: 20px 10px;
+  border-radius: 72px;
+  padding-left: 70px;
+  margin-top: 40px;
+}
+
+.conten-3 .btn-phone::before {
+  content: "\f095";
+  color: #fb7f7f;
+  position: absolute;
+  font-family: fontawesome;
+  left: 15px;
+  padding: 12px 15px;
+  background-color: #fff;
+  border-radius: 30px;
+  top: 10px;
+  font-size: 15px;
+}
+
+.conten-3 .btn-phone:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+
+/* --------------------------------conten-4---------------------------- */
+.conten-4 {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.conten-4 .s-desc-5 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Dancing Script", sans-serif;
+  color: #fb7f7f;
+}
+
+.conten-4 .s-title-5 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: #1b685f;
+}
+
+.card-2 {
+}
+
+.card-2 .s-img {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card-2 .s-img svg {
+  width: 200px;
+  height: 150px;
+}
+
+.card-2 .number {
+  text-align: center;
+  background: #fb7f7f;
+  color: white;
+  width: 1.5em;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 1.6em;
+  margin-top: 15px;
+}
+
+.card-2 .b_title-5 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1b685f;
+  margin-top: 35px;
+}
+
+/* ---------------------------------------------conten-5----------------------------- */
+.conten-5 {
+  padding-top: 50px;
+  background-color: rgb(229, 246, 245);
+  margin-top: -5px;
+  padding-bottom: 50px;
+}
+
+.card-3 {
+}
+
+.card-3 .s-title-6 {
+  color: #1b685f;
+  font-size: 3.429em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.conten-5 .s-title-6 {
+  color: #1b685f;
+  font-size: 3.429em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.conten-5 .b_conten .b_conten_1 {
+  padding: 5px;
+}
+
+.conten-5 .b_conten .b_conten_1 button {
+  width: 100%;
+  height: 46px;
+  border-radius: 13px;
+  font-size: 20px;
+  background-color: #36d0c4;
+  border: 1px #36d0c4 solid;
+  position: relative;
+}
+
+.conten-5 .b_conten .b_conten_1 button::before {
+  content: "\f078";
+  position: absolute;
+  font-family: fontawesome;
+  left: 15px;
+}
+
+.conten-5 .b_conten .b_conten_1 .nav-conten {
+  display: none;
+  padding-top: 15px;
+}
+
+.conten-5 .b_conten .b_conten_1 .nav-conten p {
+  font-size: 17px;
+}
+
+.conten-5 .b_conten .b_conten_1 button.even::before {
+  transform: rotate(180deg);
+}
+
+.conten-6 {
+  background-image: url(/img/nen-6.jpg);
+  margin-left: -65px;
+  padding-bottom: 200px;
+}
+
+.conten-6 .container {
+  padding-top: 200px;
+}
+
+.conten-6 .card-4 {
+  padding-top: 10px;
+}
+
+.conten-6 .card-4 p {
+  font-size: 25px;
+  color: rgb(229, 246, 245);
+  font-weight: 600;
+  width: 70%;
+}
+
+.conten-6 .card-4 .s-title-6 {
+  font-size: 20px;
+}
+
+.conten-6 .card-4 .s-title-6 span {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+  margin-left: 10px;
+}
+
+.conten-6 .container .see-more {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.conten-7 {
+  padding-top: 50px;
+}
+
+.conten-7 .title-7 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+}
+
+.conten-7 .desc-title {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.conten-7 .container .row {
+  margin-top: 30px;
+}
+
+.card-5 {
+}
+
+.card-5 .s-card {
+  background-image: url(/img/price_bg.jpg);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.card-5 .s-card .s-title {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.card-5 .s-card .b-title {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.card-5 .b-card {
+  background-color: #e5f6f5;
+  padding-bottom: 30px;
+}
+
+.card-5 .b-card p {
+  text-align: center;
+  font-size: 22px;
+  padding: 25px 15px;
+  position: relative;
+}
+
+.card-5 .b-card p::after {
+  content: "";
+  position: absolute;
+  position: absolute;
+  height: 1px;
+  width: 70%;
+  background-color: #ebebeb;
+  left: 60px;
+  top: 100px;
+}
+
+.card-5 .s-submit {
+  padding: 15px 33px;
+  font-size: 20px;
+  margin-top: 90px;
+  border: 1px solid #48d5c5;
+  margin-left: 90px;
+  width: 58%;
+  background-color: #48d5c5;
+  color: #fff;
+  border-radius: 47px;
+  font-weight: 900;
+}
+.card-5 .s-submit > a {
+  margin-left: 16px;
+}
+
+.conten-7 .container .row .card-6 .s-card {
+  background-image: url(/img/price_popular_bg.jpg);
+}
+
+.card-6 .b-card p::after {
+  content: "";
+  position: absolute;
+  position: absolute;
+  height: 1px;
+  width: 70%;
+  background-color: #ebebeb;
+  left: 60px;
+  top: 200px;
+}
+
+.conten-8 {
+  padding-bottom: 40px;
+  background-color: #e5f6f5;
+  margin-top: -6px;
+}
+
+.conten-8 .title-8 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+}
+
+.conten-8 .desc-title {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card-7 {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+.card-7 .s_title {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.card-7 .s_title .b-title {
+  padding: 10px 0;
+  font-weight: 700;
+}
+.card-7 .s_title .b-desc {
+  font-size: 16px;
+}
+.conten-8 [class*="b-sslide-"] .slick-arrow {
+  display: none;
+}
+
+.card-7:hover .s_title .b-title {
+  color: #48d5c5;
+}
+.card-7 .s-img img {
+  transition: all 0.3s;
+}
+
+.card-7:hover .s-img img {
+  transform: scale(1.1);
+}

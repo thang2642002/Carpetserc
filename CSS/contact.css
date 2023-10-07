@@ -1,0 +1,55 @@
+.conten-servi {
+    padding: 14px 0;
+    padding-bottom: 33px;
+}
+
+.conten-servi .s-title-1 {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.conten-servi .s-nav{
+    font-size: 17px;
+}
+.conten-servi .s-nav .s-title-2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+
+.conten-servi .s-nav>ul>li{
+    padding: 5px 0;
+}
+
+.conten-servi .s-nav>ul>li>span{
+    padding: 0 5px;
+    color: #000;
+}
+
+.conten-servi .title-info{
+
+}
+
+.conten-servi .title-info input{
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px #eee solid;
+    height: 40px;
+    outline: unset;
+}
+.conten-servi .title-info input:nth-child(4){
+    height: 120px;
+}
+
+.conten-servi .title-info .s-btn{
+    padding: 10px 15px;
+    font-weight: bold ;
+    background-color: #48d5c5;
+    border: unset;
+    color: #fff; 
+    font-size: 16px;     ;
+}

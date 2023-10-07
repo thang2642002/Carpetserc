@@ -1,0 +1,57 @@
+.conten-1{
+    margin-top: 70px;
+}
+.conten-1 .s-title{
+    display: flex;
+    padding: 5px 0;
+    border: 1px solid #eee;
+}
+
+.conten-1 .s-title .icon{
+    padding: 3px 10px;
+    font-size: 14px;
+}
+.conten-1 .s-title span{
+    position: relative;
+}
+.conten-1 .s-title span::before{
+   content:"";
+   position: absolute;
+   height: 100%;
+   width: 1px;
+   background-color:  #eaeaea;
+   left: 16px;
+   transform: rotate(20deg);
+   padding: 7px 0;
+   top: -7px;
+   left: 7px;
+}
+
+.conten-1 .s-title .b_title{
+    font-size: 14px;
+    padding: 3px 20px;
+    margin-left: 20px;
+}
+.conten-1 .s-title .icon i:hover{
+    color: #48d5c5;
+}
+
+.conten-1 .b_content{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.conten-1 .b_content .s-title-1{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.conten-1 .b_content .b_title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.conten-1 .b_content p{
+    padding: 4px 0;
+    font-size: 18px;
+}
